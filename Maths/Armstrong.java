@@ -39,6 +39,6 @@ public class Armstrong {
       sum = sum + power;
       number /= 10;
     }
-    return sum == temp;
+    return sum == num; //
   }
 }
